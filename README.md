@@ -2,15 +2,6 @@
 
 This repository contains a comprehensive machine learning project focused on predicting whether a client will subscribe to a term deposit. By analyzing historical marketing campaign data, this project implements various supervised and unsupervised models to optimize targeting strategies and improve conversion rates.
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Dataset Summary](#dataset-summary)
-- [Methodology](#methodology)
-- [Models & Performance](#models--performance)
-- [Key Insights](#key-insights)
-- [Installation & Usage](#installation--usage)
-- [Authors](#authors)
-
 ## Project Overview
 Direct marketing campaigns, particularly via phone calls, are resource-intensive. This project aims to use Artificial Intelligence to identify high-probability leads, thereby reducing unnecessary contact and operational costs while maximizing successful subscriptions.
 
@@ -34,7 +25,6 @@ Four different models were implemented to compare predictive power:
 | **Decision Tree** | 0.9136 | 0.6385 | 0.5280 | 0.8953 |
 | **Logistic Regression** | 0.8524 | 0.4079 | 0.8491 | 0.9303 |
 | **Neural Network (MLP)** | 0.9080 | 0.5835 | 0.6552 | 0.9348 |
-| **K-Means Clustering** | - | - | - | - |
 
 * **Logistic Regression** (with balanced weights) is recommended when the priority is to capture the maximum number of potential subscribers (highest Recall).
 * **Neural Network** provides the most robust overall classification (highest AUC).
@@ -44,7 +34,3 @@ Four different models were implemented to compare predictive power:
 - **Class Imbalance:** Traditional accuracy is misleading; the model's ability to distinguish classes (AUC) is a more reliable success metric here.
 - **Clustering:** K-Means identified two distinct customer segments, suggesting that subscribers share common social-economic profiles.
 
-## Installation & Usage
-1. **Clone the repo:**
-   ```bash
-   git clone [https://github.com/your-username/bank-marketing-analysis-ai.git](https://github.com/your-username/bank-marketing-analysis-ai.git)
